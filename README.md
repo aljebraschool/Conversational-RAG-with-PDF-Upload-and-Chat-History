@@ -1,4 +1,3 @@
-```markdown:README.md
 # Conversational RAG with PDF Upload and Chat History
 
 This project is a **Conversational Retrieval-Augmented Generation (RAG) chatbot** built with [Streamlit](https://streamlit.io/). It allows you to upload PDF files and chat with their content using a powerful LLM (Groq's Gemma2-9b-it) and HuggingFace embeddings. The app maintains chat history for context-aware conversations.
@@ -12,8 +11,12 @@ This project is a **Conversational Retrieval-Augmented Generation (RAG) chatbot*
 - **HuggingFace Embeddings:** Uses `all-MiniLM-L6-v2` for semantic search over your documents.
 
 ## Demo
+🌐 Live Demo
+Access the live demo on Streamlit Cloud:
+Your App Link [Here](https://end-to-end-rag-document-q-a-with-groq-and-gemma2-fjkivy2gnwufn.streamlit.app/)
 
-![Demo Screenshot](demo_screenshot.png) <!-- Add a screenshot if you have one -->
+![image](https://github.com/user-attachments/assets/cc5ab052-2fc2-44f3-948b-174d4fb841fb)
+
 
 ## Getting Started
 
@@ -101,9 +104,3 @@ MIT License
 *Built with ❤️ using Streamlit and LangChain.*
 ```
 
-**Tips:**
-- Add a screenshot (`demo_screenshot.png`) if you want a visual demo.
-- Update the repo URL and any other project-specific details as needed.
-- Make sure to include a `requirements.txt` as shown above.
-
-Let me know if you want a more detailed or minimal version!
