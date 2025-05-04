@@ -12,7 +12,8 @@ This project is a **Conversational Retrieval-Augmented Generation (RAG) chatbot*
 
 ## Demo
 
-![image](https://github.com/user-attachments/assets/cc5ab052-2fc2-44f3-948b-174d4fb841fb)
+![image](https://github.com/user-attachments/assets/681c5b0a-df25-4ff9-a6a0-c9c8d66a1a58)
+
 
 
 ## Getting Started
