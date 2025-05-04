@@ -11,9 +11,6 @@ This project is a **Conversational Retrieval-Augmented Generation (RAG) chatbot*
 - **HuggingFace Embeddings:** Uses `all-MiniLM-L6-v2` for semantic search over your documents.
 
 ## Demo
-🌐 Live Demo
-Access the live demo on Streamlit Cloud:
-Your App Link [Here](https://end-to-end-rag-document-q-a-with-groq-and-gemma2-fjkivy2gnwufn.streamlit.app/)
 
 ![image](https://github.com/user-attachments/assets/cc5ab052-2fc2-44f3-948b-174d4fb841fb)
 
