@@ -3,7 +3,8 @@
 import streamlit as st
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
-from langchain_chroma import Chroma
+# from langchain_chroma import Chroma
+from langchain_community.vectorstores import FAISS
 from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.chat_history import BaseChatMessageHistory
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
@@ -79,7 +80,8 @@ if groq_api_key:
         #use the RecursiveCharacterTextspliter object above on the document
         split_document = text_splitter.split_documents(documents)
         #now pass this split to vector store as embedding
-        vector_store = Chroma.from_documents(documents = split_document, embedding = embeddings)
+        vector_store = FAISS.from_documents(split_document, embeddings)
+        # vector_store = Chroma.from_documents(documents = split_document, embedding = embeddings)
         #get the vectore store using retrieval
         retriever = vector_store.as_retriever()
 
